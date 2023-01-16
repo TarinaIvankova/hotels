@@ -24,3 +24,33 @@ button {
   font-family: 'Lora', serif;
   font-size: 25px;
 }
+@media all and (max-width:800px){
+  h1 {
+    font-size: 40px;
+  }
+  .container {
+   width: 80%;
+   }
+   .imageHotel {
+    width: 400px;
+   }
+   .text {
+   margin: 20px;
+  }
+}
+@media all and (max-width:500px){
+  h1 {
+    font-size: 30px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+width: 100%;
+   }
+   .imageHotel {
+    width: 350px;
+   }
+   .text {
+   margin: 10px;
+  }
+}

@@ -32,7 +32,7 @@ const showTextClick=(hotel)=>{
 </p>
 </div>
 <div className="container">
-<img src={image} width="500px" alt="imgOne"/>
+<img className="imageHotel" src={image} width="500px" alt="imgOne"/>
 </div>
 <div className="container">
   <p>{source}</p>
